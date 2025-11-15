@@ -88,4 +88,5 @@ async def progress_bar(current, total, reply, start):
                 f"`{progress_bar}`"
             )
         except FloodWait as e:
+
             time.sleep(e.x)
